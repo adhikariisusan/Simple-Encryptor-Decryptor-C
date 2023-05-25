@@ -19,7 +19,7 @@ fpts=fopen(filename, "r");
         }
         else
         {
-            ch=ch-100; // Reverse encryption process
+            ch=ch-1; // Reverse encryption process
             fputc(ch, fptt);
         }
     }

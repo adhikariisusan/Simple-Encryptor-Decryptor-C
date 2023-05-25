@@ -18,7 +18,7 @@ void encrypt(char* filen)
 		}
 		else
 		{
-			ch=ch+100;
+			ch=ch+1;
 			fputc(ch, fptt);
 		}
 	}
